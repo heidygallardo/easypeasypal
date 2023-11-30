@@ -41,14 +41,22 @@
   </div>
 
   <div>
-    <h2 class=" lead text-center header-styling">Roles</h2>
-    <p class="lead text-center">EasyPeasyPal introduces a specialized 'Caregiver Role' feature, tailored to facilitate
-      caregivers in supporting their patients or loved ones. This unique role allows caregivers to access and manage the
-      same features available to regular users, but with the added capability of overseeing another user's account.
-      Caregivers can seamlessly schedule appointments, manage medications, and ensure effective communication, all from
-      a single, intuitive interface. This feature underscores our commitment to making digital tools more inclusive and
-      supportive, empowering caregivers to provide better, more coordinated care, while maintaining the dignity and
-      independence of those they assist. </p>
+    <h2 class="lead text-center header-styling">Roles</h2>
+   
+    <!-- Centered Button Container -->
+    <div class="text-center">
+        <!-- Collapsible Button -->
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#rolesCollapse" aria-expanded="false" aria-controls="rolesCollapse">
+            Learn More
+        </button>
+    </div>
+  
+    <!-- Collapsible Content -->
+    <div class="collapse" id="rolesCollapse">
+      <div class="card card-body">
+        <p class="lead text-center">EasyPeasyPal introduces a specialized 'Caregiver Role' feature, tailored to facilitate caregivers in supporting their patients or loved ones. This unique role allows caregivers to access and manage the same features available to regular users, but with the added capability of overseeing another user's account. Caregivers can seamlessly schedule appointments, manage medications, and ensure effective communication, all from a single, intuitive interface. This feature underscores our commitment to making digital tools more inclusive and supportive, empowering caregivers to provide better, more coordinated care, while maintaining the dignity and independence of those they assist.</p>
+      </div>
+    </div>
   </div>
 
   <hr />
@@ -56,6 +64,8 @@
   <!-- spacing vertically and horizontally -->
   <div class="container px-lg-5">
     <div class="row mx-lg-n5 mb-4 text-center text-white">
+
+
       <div class="col py-3 px-lg-5 border bg-secondary">
         <h2>Appointments</h2>
         <p class="lead">Easy Peasy Pal features a straightforward, user-friendly interface, perfect for seniors and
@@ -66,20 +76,22 @@
         
         </div>
 
-        <button type="button" class="btn btn-primary btn-lg mt-4">
-          Tutorial</button>
+          <a href="#appointments-section" class="btn btn-primary btn-lg mt-4">Tutorial</a>
 
       </div>
+      
       <div class="col py-3 px-lg-5 border bg-primary ml-4">
         <h2>Communication</h2>
         <p class="lead">Easy Peasy Pal ensures you stay connected with caretakers, family, friends, and emergency
           contacts when it matters most. The app is designed for effortless and reliable communication with your support
           network.</p>
+
         <div class="intro-images">
           <img src="images/communication-example.png">
 
         </div>
-        <button type="button" class="btn btn-secondary btn-lg mt-4">Tutorial</button>
+        <a href="#communication-section" class="btn btn-secondary btn-lg mt-4">Tutorial</a>
+
       </div>
     </div>
   </div>
@@ -91,24 +103,29 @@
         <p class="lead">Easy Peasy Pal takes the stress out of managing your medications. It simplifies tracking
           dosages, scheduling timings, and ensuring timely refills. Designed for precision and ease, it's the ideal tool
           for effortless medication management for all users.</p>
+
         <div class="intro-images">
         
           <img src="images/medications-example.png">
 
         </div>
-        <button type="button" class="btn btn-secondary btn-lg mt-4">Tutorial</button>
+        <a href="#medication-section" class="btn btn-secondary btn-lg mt-4">Tutorial</a>
+
       </div>
+
       <div class="col py-3 px-lg-5 border bg-secondary ml-4">
         <h2>Personal Care</h2>
         <p class="lead">Easy Peasy Pal makes managing your physical and mental health straightforward. Its all-in-one
           health assistant is thoughtfully designed to support a balanced lifestyle with simple daily exercises and
           workout routines.</p>
+
         <div class="intro-images">
         
           <img src="images/personal-care-example.png">
 
         </div>
-        <button type="button" class="btn btn-primary btn-lg mt-4">Tutorial</button>
+        <a href="#personal-care-section" class="btn btn-primary btn-lg mt-4">Tutorial</a>
+
       </div>
     </div>
   </div>
@@ -118,7 +135,7 @@
 
 
   <div class="container">
-    <div class="card mb-3">
+    <div class="card mb-3" id = "appointments-section">
         <!-- reference for appointments section-->
         <a name="appointments-ref"></a>
                         
@@ -140,7 +157,7 @@
 
 
 
-    <div class="card mb-3">
+    <div class="card mb-3" id = "communication-section">
         <!-- reference for communication section-->
 
         <a name="communication-ref"></a>
@@ -177,7 +194,7 @@
 
 
 
-    <div class="card mb-3">
+    <div class="card mb-3" id="medication-section">
         <!-- reference for medication section-->
 
         <a name="medication-ref"></a>
@@ -199,7 +216,7 @@
     </div>
 
 
-    <div class="card mb-3">
+    <div class="card mb-3" id="personal-care-section">
         <!-- reference for medication section-->
 
         <a name="personal-care-ref"></a>
