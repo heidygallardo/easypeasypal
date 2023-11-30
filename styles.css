@@ -1,0 +1,32 @@
+:root {
+    --appointmentsColor: #204564;
+    --communicationColor: #273238;
+    --medsColor: #2296f3; 
+  
+
+}
+
+.title-styling {
+    letter-spacing: 5px;
+    font-size: 80px;
+    font-weight: initial
+}
+
+.header-styling {
+    letter-spacing: 5px;
+    font-size: 40px;
+    font-weight: initial;
+}
+
+.appts-color {
+    background-color: var(--appointmentsColor);
+}
+
+.meds-color {
+    background-color: var(--medsColor);
+
+}
+
+.comm-color {
+    background-color: var(--communicationColor);
+}
