@@ -2,6 +2,7 @@
     --appointmentsColor: #204564;
     --communicationColor: #273238;
     --medsColor: #2296f3; 
+    --careColor: #009688;
   
 
 }
@@ -30,3 +31,8 @@
 .comm-color {
     background-color: var(--communicationColor);
 }
+
+.care-color {
+    background-color: var(--careColor);
+}
+
