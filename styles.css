@@ -3,6 +3,7 @@
     --communicationColor: #273238;
     --medsColor: #2296f3; 
     --careColor: #009688;
+    --navyColor: #1e4768;
   
 
 }
@@ -20,23 +21,58 @@
 }
 
 .appts-color {
-    background-color: var(--appointmentsColor);
+    background-color: var(--navyColor);
 }
 
 .meds-color {
-    background-color: var(--medsColor);
+    background-color: var(--navyColor);
 
 }
 
 .comm-color {
-    background-color: var(--communicationColor);
+    background-color: var(--navyColor);
 }
 
 .care-color {
-    background-color: var(--careColor);
+    background-color: var(--navyColor);
 }
 
-#intro-img {
+.intro-img {
     max-height: 400px;
     border: 6px solid white;
+    /*padding: 10px;*/
+}
+
+
+.navy {
+    background-color: var(--navyColor);
+
+}
+
+
+.navy-btn {
+    background-color: var(--navyColor);
+    color: white;
+    
+
+}
+
+.navy-btn:hover {
+    color: white; 
+    opacity: 0.90;
+    transition: opacity 0.3s ease;
+}
+
+.navy-text {
+    color: var(--navyColor);
+}
+
+.navy-highlights {
+    background-color: var(--navyColor);
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
