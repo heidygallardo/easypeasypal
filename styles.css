@@ -1,12 +1,11 @@
 :root {
-    --appointmentsColor: #204564;
-    --communicationColor: #273238;
-    --medsColor: #2296f3; 
-    --careColor: #009688;
+   
     --navyColor: #1e4768;
+    --lightBlue: #eaf2fa;
   
-
 }
+
+
 
 .title-styling {
     letter-spacing: 5px;
@@ -72,7 +71,29 @@
     color: white;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
+.navbar-nav {
+    justify-content: center;
+    display: flex;
+    margin: auto;
+  
 }
+
+
+/* SCROLL TO TOP BUTTON*/
+
+#scroll-to-top-btn {
+    height: 45px;
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    display: none;
+    color: var(--navyColor);
+    background-color: var(--lightBlue);
+    border: 1px solid var(--navyColor);
+  }
+  
+  #scroll-to-top-btn:hover {
+    cursor: pointer;
+    color: var(--lightBlue);
+    background-color: var(--navyColor);
+  }
