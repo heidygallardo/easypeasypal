@@ -9,14 +9,52 @@
 
   <!-- link css file -->
   <link rel="stylesheet" type="text/css" href="styles.css" />
+  <!-- FONT AWESOME KIT CODE-->
+  <script src="https://kit.fontawesome.com/0d366321af.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body class="bg-light">
 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!--<a class="navbar-brand" href="#">Navbar</a>-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#appointments-section">Appointments</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#communication-section">Communication</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#medication-section">Medication</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#personal-care-section">Personal Care</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#todays-events-section"> Today's Events</a>
+        </li>
+
+
+      </ul>
+    </div>
+  </nav>
+
 
   <div class="container">
     <div class="text-primary text-center">
+      <img class="img-fluid" src="images/logo.png">
       <h1 class="navy-text">EasyPeasyPal</h1>
     </div>
   </div>
@@ -85,9 +123,9 @@
           individuals with disabilities. Its intuitive design allows for hassle-free navigation, making appointments a
           breeze, even for those less familiar with technology.</p>
         <div class="intro-images">
-          <img class="intro-img" src="images/appointments-example.png">
+          <img class="intro-img" src="images/appointments-screen.png">
         </div>
-        <a href="#appointments-section" class="btn btn-secondary btn-lg mt-4">Tutorial</a>
+        <a href="#appointments-section" class="btn btn-secondary btn-lg mt-4">Learn More!</a>
       </div>
 
       <div class="col border navy-highlights p-3 mb-3 mx-md-3">
@@ -96,9 +134,9 @@
           contacts when it matters most. The app is designed for effortless and reliable communication with your support
           network.</p>
         <div class="intro-images">
-          <img class="intro-img" src="images/communication-example.png">
+          <img class="intro-img" src="images/communication-screen.png">
         </div>
-        <a href="#communication-section" class="btn btn-secondary btn-lg mt-4">Tutorial</a>
+        <a href="#communication-section" class="btn btn-secondary btn-lg mt-4">Learn More!</a>
       </div>
     </div>
 
@@ -108,9 +146,9 @@
         <p class="lead">Easy Peasy Pal takes the stress out of managing your medications. Designed for precision and
           ease, it's the ideal tool for effortless medication management for all users.</p>
         <div class="intro-images">
-          <img class="intro-img" src="images/medications-example.png">
+          <img class="intro-img" src="images/medications-screen.png">
         </div>
-        <a href="#medication-section" class="btn btn-secondary btn-lg mt-4">Tutorial</a>
+        <a href="#medication-section" class="btn btn-secondary btn-lg mt-4">Learn More!</a>
       </div>
 
       <div class="col border navy-highlights p-3 mb-3 mx-md-3">
@@ -119,9 +157,9 @@
           health assistant is thoughtfully designed to support a balanced lifestyle with simple daily exercises and
           workout routines.</p>
         <div class="intro-images">
-          <img class="intro-img" src="images/personal-care-example.png">
+          <img class="intro-img" src="images/personal-care-screen.png">
         </div>
-        <a href="#personal-care-section" class="btn btn-secondary btn-lg mt-4">Tutorial</a>
+        <a href="#personal-care-section" class="btn btn-secondary btn-lg mt-4">Learn More!</a>
       </div>
     </div>
   </div>
@@ -135,8 +173,7 @@
 
   <div class="container">
     <div class="card mb-3" id="appointments-section">
-      <!-- reference for appointments section-->
-      <a name="appointments-ref"></a>
+    
 
       <h5 class="card-header appts-color text-white">APPOINTMENTS</h5>
 
@@ -157,9 +194,7 @@
 
 
     <div class="card mb-3" id="communication-section">
-      <!-- reference for communication section-->
-
-      <a name="communication-ref"></a>
+    
 
       <h5 class="card-header  comm-color text-white">COMMUNICATION</h5>
       <div class="card-body">
@@ -194,9 +229,7 @@
 
 
     <div class="card mb-3" id="medication-section">
-      <!-- reference for medication section-->
-
-      <a name="medication-ref"></a>
+     
 
       <h5 class="card-header meds-color text-white">MEDICATION</h5>
       <div class="card-body">
@@ -216,9 +249,8 @@
 
 
     <div class="card mb-3" id="personal-care-section">
-      <!-- reference for medication section-->
 
-      <a name="personal-care-ref"></a>
+     
 
       <h5 class="card-header care-color text-white">PERSONAL CARE</h5>
       <div class="card-body">
@@ -238,23 +270,43 @@
       </div>
     </div>
 
+    <div class="card mb-3" id="todays-events-section">
+
+    
+      <h5 class="card-header care-color text-white">Today's Events</h5>
+      <div class="card-body">
+        <h5 class="card-title">Role: Users</h5>
+        <p class="card-text">This feature gives users access to: </p>
+        <ul>
+          <li>View of appointments and medications with just one click!</li>
+          
+        </ul>
+
+       
+
+      </div>
+    </div>
+
 
 
 
 
   </div>
 
-
-
-
-
-
-
-
-
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+ 
+  <!-- SCROLL TO TOP BUTTON -->
+
+  <button type="button" class="btn btn-floating btn-lg" id="scroll-to-top-btn">
+    <i class="fa-solid fa-angles-up"></i>
+  </button>
+
+  <!-- JAVASCRIPT Scroll to top CODE LINK -->
+  <script type="text/javascript" src="script.js"></script>
+
 </body>
 
 </html>
